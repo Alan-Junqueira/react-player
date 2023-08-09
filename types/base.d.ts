@@ -58,6 +58,7 @@ export interface BaseReactPlayerProps {
   ) => void
   onDuration?: (duration: number) => void
   onSeek?: (seconds: number) => void
+  onPlaybackRateChange?: () => void
   onProgress?: (state: OnProgressProps) => void
   [otherProps: string]: any
 }
